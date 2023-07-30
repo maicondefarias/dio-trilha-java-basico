@@ -11,7 +11,7 @@ public class TiposVariaveis {
          * 
          * E.g.2: 1500,5 WRONG! (No commas, you dummie!)
          *        1500.5 Correct! (Yes! It's one thousand five hundred dot five!)
-         */
+         
 
         byte age = 123;
         short year = 2023;
@@ -24,6 +24,6 @@ public class TiposVariaveis {
         short shortNumber = 1;
         int normalNumber = shortNumber;
         short shortNumber2 = (short) normalNumber; // Java doesn't accept add a integer in a short type variable. So we must convert to short type. This convertion is called "casting"
-
+        */
     }
 }
